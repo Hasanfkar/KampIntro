@@ -21,7 +21,7 @@ namespace GenericsIntro
                 items[i] = tempArray[i];
             }
 
-            Console.WriteLine("Dizi Uzunluğu:"+items.Length+);
+            Console.WriteLine("Dizi Uzunluğu:"+items.Length);
             items[items.Length - 1] = item;
             for (int i = 0; i < items.Length; i++)
             {
